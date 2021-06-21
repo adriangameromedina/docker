@@ -8,7 +8,7 @@ docker image build --tag=centro-comercial .
 ### 2.1 Primero hay que introducir las credenciales:
 docker login
 
-### 2.2 Etiqueto la imagen con mi usuario, nombre de la imagen y el tag por defecto creará latest
+### 2.2 Etiqueto la imagen con mi usuario y el nombre de la imagen 
 docker image tag centro-comercial adriangameromedina/centro-comercial
 
 ### 2.3 Subo la imagen al DockerHub
