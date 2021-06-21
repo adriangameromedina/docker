@@ -15,11 +15,12 @@ docker image tag centro-comercial adriangameromedina/centro-comercial
 docker image push adriangameromedina/centro-comercial
 
 # 3. Se puede probar la app con el docker-compose
+### Comando
 docker-compose up -d
 
-### 3.1 URL
+### 3.2 URL
 http://localhost:8000
 
-### Credenciales de la base de datos postgres
+### 3.3 Credenciales de la base de datos postgres
 usuario: adrian
 contraseña: admin1234
