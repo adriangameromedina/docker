@@ -15,7 +15,7 @@ docker image tag centro-comercial adriangameromedina/centro-comercial
 docker image push adriangameromedina/centro-comercial
 
 # 3. Se puede probar la app con el docker-compose
-### Comando
+### 3.1 Comando
 docker-compose up -d
 
 ### 3.2 URL
