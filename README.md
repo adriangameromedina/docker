@@ -2,7 +2,9 @@
 Aplicación Django conectada a una base de datos postgres.
 
 # 1. Construir la imagen 
+```
 docker image build --tag=centro-comercial .
+```
 
 # 2. Subir la imagen a docker Hub
 ### 2.1 Primero hay que introducir las credenciales:
